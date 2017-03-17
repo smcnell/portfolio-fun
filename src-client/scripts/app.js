@@ -6,9 +6,10 @@ const AppRouter = Backbone.Router.extend({
     "" : "showHomePage",
     "about" : "showAboutMePage",
     "projects" : "showProjectsPage",
+    "projects:id" :"showOneProjectPage"
 		"skills": "showSkillsPage"
   },
 
-ReactDOM.render(<h1> We are da shit</h1>, document.querySelector('#app-container'))
+ReactDOM.render(<h1> Woop</h1>, document.querySelector('#app-container'))
 
 new AppRouter()
